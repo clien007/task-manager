@@ -96,7 +96,9 @@ After logging in, you will receive a token. In Postman, go to the Authorization 
 
 
 **Additional Features**
+
 Enhanced Filtering and Pagination
+
     Web Application:
         Implemented task filtering by status and category using query parameters.
         Added pagination to the task list view.
@@ -107,6 +109,7 @@ Enhanced Filtering and Pagination
         Created a trait to share filtering logic between web and API controllers.
 
 Dashboard and Statistics
+
     Web Application:
         Created a dashboard displaying task statistics, including counts of tasks by status.
         API:
