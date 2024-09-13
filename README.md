@@ -27,6 +27,7 @@ This project is a task management application that supports CRUD operations and 
     - Tailwind CSS
 
 **Routes**
+
     Tasks:
     Get All Tasks
         `GET` /tasks
@@ -40,7 +41,7 @@ This project is a task management application that supports CRUD operations and 
         `Delete` /tasks/{id}
 
     Archives:
-    Get ALl Archives
+    Get All Archives
         `GET` /archvives   
 
 **API Documentation**
