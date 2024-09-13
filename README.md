@@ -59,15 +59,14 @@ After logging in, you will receive a token. In Postman, go to the Authorization 
     Authorization: Bearer {token}
 
 **Endpoints**
-Statistics
 
-Get Tasks Statistics
+    Get Tasks Statistics
     `GET` /tasks/stats
 
-Get All Tasks
+    Get All Tasks
     `GET` /tasks
 
-Add New Task
+    Add New Task
     `POST` /tasks/
         - Request Body
             {
@@ -76,7 +75,7 @@ Add New Task
                 "category_id" : 1
             }
 
-Update Task
+    Update Task
     `PUT` /tasks/edit/{id}
         - Request Body
             {
@@ -85,14 +84,14 @@ Update Task
                 "category_id" : 1
             }
 
-Update Task Status
+    Update Task Status
     `POST` tasks/{id}/update-status
         - Request Body
             {
                 "next_status" : "In Progress"
             }
 
-Delete Task
+    Delete Task
     `Delete` /tasks/{id}
 
 
