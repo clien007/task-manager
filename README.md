@@ -112,12 +112,12 @@ Dashboard and Statistics
 
     Web Application:
         Created a dashboard displaying task statistics, including counts of tasks by status.
-        API:
-            Added an endpoint to retrieve task statistics: GET /api/tasks/stats.
-        Shared:
-            Extended TaskService to include a method for generating task statistics.
-        Caching:
-            Implemented caching for task statistics using Laravel's cache system with a reasonable expiration time.
+    API:
+        Added an endpoint to retrieve task statistics: GET /api/tasks/stats.
+    Shared:
+        Extended TaskService to include a method for generating task statistics.
+    Caching:
+        Implemented caching for task statistics using Laravel's cache system with a reasonable expiration time.
 
 Background Job Processing
 
