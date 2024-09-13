@@ -47,7 +47,7 @@ This project is a task management application that supports CRUD operations and 
 API requests can be tested using Postman.
 
 Login
-`POST` /api/login
+POST /api/login
     - Request Body
         {
             "email" : "your@email.com",
