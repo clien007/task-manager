@@ -47,12 +47,12 @@ This project is a task management application that supports CRUD operations and 
 API requests can be tested using Postman.
 
 Login
-    `POST` /api/login
-        - Request Body
-            {
-                "email" : "your@email.com",
-                "password" : "password" 
-            }
+`POST` /api/login
+    - Request Body
+        {
+            "email" : "your@email.com",
+            "password" : "password" 
+        }
 
 After logging in, you will receive a token. In Postman, go to the Authorization tab, select "Bearer Token," and enter the token in the format:
     Authorization: Bearer {token}
