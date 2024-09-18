@@ -9,7 +9,7 @@ use App\Http\Middleware\SetLocale;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 
     Route::get('/', function () {
-        return redirect()->route('login', ['locale' => 'en']);
+        return redirect()->route('login', ['{locale}' => app()->getLocale()]);
     });
 
     Route::prefix('{locale}')->middleware(['auth', 'setlocale'])->group(function () {
