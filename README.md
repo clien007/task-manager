@@ -9,12 +9,12 @@ To set up and run this project locally, follow these steps:
 
 1. Fork this repository.
 2. Clone the forked repository to your local machine.
-3. Install PHP dependencies: composer install.
-4. Run database migrations: php artisan migrate.
-5. Seed the database: php artisan db:seed.
-6. Install JavaScript dependencies: npm install.
-7. Compile assets: npm run dev.
-8. Start the development server: php artisan serve.
+3. Install PHP dependencies: `composer install`.
+4. Run database migrations: `php artisan migrate`.
+5. Seed the database: `php artisan db:seed`.
+6. Install JavaScript dependencies: `npm install`.
+7. Compile assets: `npm run dev`.
+8. Start the development server: `php artisan serve`.
 
 **Project Overview**
 
